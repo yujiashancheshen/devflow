@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# 工作区临时目录
+/codebase/*
+!/codebase/.gitkeep
+
+/worktree/*
+!/worktree/.gitkeep
+
+/tmp/*
+!/tmp/.gitkeep
+
+# 本地工作区配置与业务材料
+/workspace.toml
+/.claude/
+/requirement/*
+!/requirement/.gitkeep
+
+# 开发过程产物
+/tests/
+/template/
+
+# 本地文章预览与配图
+/*.html
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/devflow_article*.md
+/DevFlow*.md
+
+# 知识库：.md 为实际使用文件不提交，.md.example 为模板可提交
+/knowledge/business/*.md
+/knowledge/architecture/*.md
+/knowledge/engineering/*.md
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db

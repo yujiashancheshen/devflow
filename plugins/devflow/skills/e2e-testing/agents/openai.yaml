@@ -1,0 +1,4 @@
+interface:
+  display_name: "E2E Testing"
+  short_description: "从 PRD/Case 生成并执行 Playwright，按 Case 汇总 HTML 报告"
+  default_prompt: "使用 $e2e-testing 从 PRD、批量 Case、单个 Case 或现有脚本生成并执行 E2E，输出 Case 级通过/失败汇总报告。"

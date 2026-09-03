@@ -1,0 +1,26 @@
+{
+  "name": "devflow",
+  "version": "0.5.0",
+  "description": "标准化 AI 开发流程插件：需求澄清加强 → 概要设计 → 详细设计 → 实施(编码、自测、Review) → E2E 联调",
+  "commands": [
+    "commands/start.md",
+    "commands/start-flow.md",
+    "commands/init-knowledge.md",
+    "commands/requirement-clarification.md",
+    "commands/high-level-design.md",
+    "commands/detailed-design.md",
+    "commands/implementation.md",
+    "commands/code-review.md",
+    "commands/e2e-testing.md"
+  ],
+  "skills": [
+    "skills/dev-flow",
+    "skills/init-knowledge",
+    "skills/requirement-clarification",
+    "skills/high-level-design",
+    "skills/detailed-design",
+    "skills/implementation",
+    "skills/code-review",
+    "skills/e2e-testing"
+  ]
+}

@@ -1,0 +1,15 @@
+version = 1
+name = "请填写工作区名"
+
+[defaults]
+branch = "master"
+
+# 按下列格式逐个补充仓库，未填写时生成器只铺骨架、不克隆。
+# [[repositories]]
+# name = "svc-order"
+# url = "git@example.com:group/svc-order.git"
+#
+# [[repositories]]
+# name = "web-admin"
+# url = "git@example.com:group/web-admin.git"
+# branch = "dev"
